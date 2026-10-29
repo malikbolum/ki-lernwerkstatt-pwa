@@ -1,0 +1,21 @@
+{
+  "id": "./",
+  "name": "KI-Lernwerkstatt",
+  "short_name": "KI-Werkstatt",
+  "description": "BWL und KI lernen: Karteikarten, Kostenrechner und eigene Notizen. Offline und ohne Anmeldung.",
+  "lang": "de",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F7F7F5",
+  "theme_color": "#24666A",
+  "icons": [
+    {"src":"./icons/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any"},
+    {"src":"./icons/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any"}
+  ],
+  "shortcuts": [
+    {"name":"Karteikarten üben","url":"./#karten"},
+    {"name":"KI-Kosten berechnen","url":"./#rechner"},
+    {"name":"Meine Notizen","url":"./#lernstand"}
+  ]
+}
